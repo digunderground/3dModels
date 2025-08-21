@@ -1,7 +1,3 @@
-Here’s a **general-purpose `README.md`** template you can use for your open-source 3D model repository. It’s clear, professional, and flexible so you can adapt it as your collection grows.
-
----
-
 # **Open Source 3D Models**
 
 Welcome to my personal repository of **open-source 3D models**!
