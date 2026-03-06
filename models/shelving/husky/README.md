@@ -1,6 +1,6 @@
-# Husky Shelving Magnetic Brackets
+# Husky Shelving Accessories
 
-Magnetic mounting brackets designed for **Husky** garage shelving systems. These brackets use embedded neodymium magnets to attach accessories, DIN rails, and organizers to Husky steel shelving uprights and surfaces without drilling or permanent hardware.
+Accessories designed for **Husky** garage shelving systems. Includes magnetic mounting brackets and a dedicated monitor arm mount, all designed to integrate with Husky steel shelving uprights and surfaces without drilling or permanent hardware.
 
 ## Files
 
@@ -8,6 +8,7 @@ Magnetic mounting brackets designed for **Husky** garage shelving systems. These
 |------|-------------|
 | `husky 4020 mag bracket.stl` | Magnetic bracket sized for Husky 40×20 mm slot/upright profile — mounts accessories to the vertical frame of Husky shelving |
 | `husky DIN mag bracket.stl` | Magnetic bracket that holds a 35 mm DIN rail section against Husky shelving steel, enabling DIN-based tool and accessory mounting on the shelving unit |
+| `4020 monitor mount.stl` | Monitor arm / display mount that attaches to the Husky 40×20 mm upright profile, allowing a monitor or screen to be positioned over the workbench |
 
 ## Usage
 
@@ -18,6 +19,14 @@ This bracket grips the 40×20 mm rectangular tube uprights found on Husky heavy-
 - Mount small organizer bins or cups to shelf uprights
 - Attach hooks, clamps, or holders to vertical steel members
 - Create quick-release accessory points anywhere along the upright
+
+### 4020 monitor mount
+
+Mounts directly onto the 40×20 mm upright of Husky shelving, providing a stable attachment point for a VESA monitor arm or a direct display holder. Keeps the monitor overhead or to the side of the workbench without consuming shelf space or requiring wall drilling. Use it to:
+
+- Position a monitor or tablet above a workbench for reference or media
+- Mount a small display for a Raspberry Pi or other single-board computer project
+- Attach a clip-on magnifier or camera arm to the shelf upright
 
 ### husky DIN mag bracket
 
@@ -62,6 +71,20 @@ Combines a magnetic mounting face with a 35 mm DIN rail cradle. The magnet holds
 | **Print orientation** | Magnetic face down (flat on bed) | Best layer orientation for peel resistance |
 | **Supports** | As needed for DIN channel | |
 | **Print speed** | 40 mm/s | Slow to 20 mm/s for DIN clip features |
+
+### 4020 monitor mount.stl
+
+| Setting | Recommended Value | Notes |
+|---------|-------------------|-------|
+| **Material** | PETG or ASA | Monitor mounts bear sustained static load; avoid PLA |
+| **Layer height** | 0.2 mm | |
+| **Infill** | 50–60% | High infill for strength under continuous monitor weight |
+| **Infill pattern** | Gyroid | |
+| **Walls** | 5 | Critical for clamp/grip geometry on the upright profile |
+| **Top/bottom layers** | 5 | |
+| **Print orientation** | Clamp opening facing up | Keeps clamp walls vertical for maximum layer adhesion |
+| **Supports** | Minimal | Only for any VESA hole overhangs |
+| **Print speed** | 35–45 mm/s | Slow perimeters to 20 mm/s |
 
 ## Magnet Installation
 
